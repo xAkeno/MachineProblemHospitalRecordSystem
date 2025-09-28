@@ -21,5 +21,13 @@ namespace MachineProblemHospitalRecordSystem
         {
 
         }
+
+        private void txtUname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //// heil carti
+        ///
     }
 }
