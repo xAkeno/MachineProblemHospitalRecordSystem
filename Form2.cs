@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,10 +25,12 @@ namespace MachineProblemHospitalRecordSystem
 
         private void txtUname_TextChanged(object sender, EventArgs e)
         {
+            string connectionString = "server=localhost;user=root;password=;database=userpass;";
 
+            using (MySqlConnection  connnect = new MySqlConnection(connectionString))
+            {
+
+            }
         }
-
-        //// heil carti
-        ///
     }
 }
