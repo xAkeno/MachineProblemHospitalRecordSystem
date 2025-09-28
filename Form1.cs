@@ -16,5 +16,25 @@ namespace MachineProblemHospitalRecordSystem
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Juice();
+        }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+            Gurt();
+        }
+        private void Juice()
+        {
+            SignUp f2 = new SignUp();
+            f2.Show();
+        }
+
+        private void Gurt() { 
+        MainForm f3 = new MainForm();
+            f3.Show();
+        }
     }
 }
