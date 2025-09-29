@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
+
+namespace MachineProblemHospitalRecordSystem
+{
+    internal class services
+    {
+        protected static String connect = "Server=localhost; Database=hospital_records_db; Uid=root; Pwd=;";
+
+        protected MySqlConnection GetConnection()
+        {
+            return new MySqlConnection(connect);
+        }
+    }
+}
