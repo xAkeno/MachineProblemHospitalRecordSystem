@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace MachineProblemHospitalRecordSystem
 {
@@ -27,6 +29,7 @@ namespace MachineProblemHospitalRecordSystem
 
         }
 
+<<<<<<< HEAD
         private void SignUp_Load(object sender, EventArgs e)
         {
 
@@ -34,5 +37,9 @@ namespace MachineProblemHospitalRecordSystem
 
         //// heil carti
         ///
+=======
+      
+        
+>>>>>>> 0fdfd973069dce911a50973da059c8ce04521e5a
     }
 }
