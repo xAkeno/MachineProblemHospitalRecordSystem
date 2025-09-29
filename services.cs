@@ -12,7 +12,7 @@ namespace MachineProblemHospitalRecordSystem
     {
         protected static String connect = "Server=localhost; Database=hospital_records_db; Uid=root; Pwd=;";
 
-        protected MySqlConnection GetConnection()
+        public MySqlConnection GetConnection()
         {
             return new MySqlConnection(connect);
         }
