@@ -27,8 +27,9 @@ namespace MachineProblemHospitalRecordSystem
         {
             string connectionString = "server=localhost;user=root;password=;database=userpass;";
 
-            using (MySqlConnection  connnect = new MySqlConnection(connectionString))
+            using (MySqlConnection  con = new MySqlConnection(connectionString))
             {
+                con.Open();
 
             }
         }
